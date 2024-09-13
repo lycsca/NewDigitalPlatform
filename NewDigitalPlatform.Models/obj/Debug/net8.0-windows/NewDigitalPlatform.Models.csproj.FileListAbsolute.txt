@@ -1,0 +1,12 @@
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\bin\Debug\net8.0-windows\NewDigitalPlatform.Models.deps.json
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\bin\Debug\net8.0-windows\NewDigitalPlatform.Models.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\bin\Debug\net8.0-windows\NewDigitalPlatform.Models.pdb
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\net8.0-windows\NewDigitalPlatform.Models.GeneratedMSBuildEditorConfig.editorconfig
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\net8.0-windows\NewDigitalPlatform.Models.AssemblyInfoInputs.cache
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\net8.0-windows\NewDigitalPlatform.Models.AssemblyInfo.cs
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\net8.0-windows\NewDigitalPlatform.Models.csproj.CoreCompileInputs.cache
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\net8.0-windows\NewDigitalPlatform.Models.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\net8.0-windows\refint\NewDigitalPlatform.Models.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\net8.0-windows\NewDigitalPlatform.Models.pdb
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\net8.0-windows\ref\NewDigitalPlatform.Models.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\net8.0-windows\NewDigitalPlatform.Models.csproj.AssemblyReference.cache

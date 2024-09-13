@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitPlatform.Start\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63D5950A-4D93-4DF4-95B6-CCE04A1FD343}|..\\NewDigitalPlatform.ViewModels\\NewDigitalPlatform.ViewModels.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.viewmodels\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63D5950A-4D93-4DF4-95B6-CCE04A1FD343}|..\\NewDigitalPlatform.ViewModels\\NewDigitalPlatform.ViewModels.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFA711F-22AF-40B2-9C08-EF6A2AE401E6}|..\\NewDigitalPlatform.DataAssets\\NewDigitalPlatform.DataAssets.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.dataassets\\localdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D235902-8965-4263-BF43-2173FCBBF33A}|..\\NewDigitPlatform.Views\\NewDigitalPlatform.Views.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitplatform.views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63D5950A-4D93-4DF4-95B6-CCE04A1FD343}|..\\NewDigitalPlatform.ViewModels\\NewDigitalPlatform.ViewModels.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4B4DBA-FBDB-48AF-A8F5-2AF9C8B5C109}|NewDigitalPlatform.Start.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitplatform.start\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC4B4DBA-FBDB-48AF-A8F5-2AF9C8B5C109}|NewDigitalPlatform.Start.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D235902-8965-4263-BF43-2173FCBBF33A}|..\\NewDigitPlatform.Views\\NewDigitalPlatform.Views.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitplatform.views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D235902-8965-4263-BF43-2173FCBBF33A}|..\\NewDigitPlatform.Views\\NewDigitalPlatform.Views.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitplatform.views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LocalDataAccess.cs",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\LocalDataAccess.cs",
+              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.DataAssets\\LocalDataAccess.cs",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\LocalDataAccess.cs",
+              "RelativeToolTip": "..\\NewDigitalPlatform.DataAssets\\LocalDataAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T11:09:10.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.ViewModels\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.ViewModels\\DependencyInjection.cs",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.ViewModels\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\NewDigitalPlatform.ViewModels\\DependencyInjection.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:23:04.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitPlatform.Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\NewDigitPlatform.Views\\MainWindow.xaml.cs",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitPlatform.Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\NewDigitPlatform.Views\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwB4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:21:31.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.ViewModels\\LoginViewModel.cs",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "..\\NewDigitalPlatform.ViewModels\\LoginViewModel.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAswEEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:19:59.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "..\\NewDigitalPlatform.ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:20:14.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitPlatform.Start\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitPlatform.Start\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-13T11:06:53.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitPlatform.Views\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "..\\NewDigitPlatform.Views\\Login.xaml.cs",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitPlatform.Views\\Login.xaml.cs",
+              "RelativeToolTip": "..\\NewDigitPlatform.Views\\Login.xaml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAswBoAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:20:51.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitPlatform.Views\\Login.xaml",
+              "RelativeDocumentMoniker": "..\\NewDigitPlatform.Views\\Login.xaml",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitPlatform.Views\\Login.xaml",
+              "RelativeToolTip": "..\\NewDigitPlatform.Views\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-13T10:19:51.624Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

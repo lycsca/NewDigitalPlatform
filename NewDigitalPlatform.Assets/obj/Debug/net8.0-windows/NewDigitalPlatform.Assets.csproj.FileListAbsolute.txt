@@ -1,0 +1,13 @@
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\bin\Debug\net8.0-windows\NewDigitalPlatform.Assets.deps.json
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\bin\Debug\net8.0-windows\NewDigitalPlatform.Assets.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\bin\Debug\net8.0-windows\NewDigitalPlatform.Assets.pdb
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\obj\Debug\net8.0-windows\NewDigitalPlatform.Assets.GeneratedMSBuildEditorConfig.editorconfig
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\obj\Debug\net8.0-windows\NewDigitalPlatform.Assets.AssemblyInfoInputs.cache
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\obj\Debug\net8.0-windows\NewDigitalPlatform.Assets.AssemblyInfo.cs
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\obj\Debug\net8.0-windows\NewDigitalPlatform.Assets.csproj.CoreCompileInputs.cache
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\obj\Debug\net8.0-windows\NewDigitalPlatform.Assets.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\obj\Debug\net8.0-windows\refint\NewDigitalPlatform.Assets.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\obj\Debug\net8.0-windows\NewDigitalPlatform.Assets.pdb
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\obj\Debug\net8.0-windows\ref\NewDigitalPlatform.Assets.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\obj\Debug\net8.0-windows\NewDigitalPlatform.Assets.csproj.AssemblyReference.cache
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\obj\Debug\net8.0-windows\NewDigitalPlatform.Assets.g.resources
