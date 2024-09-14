@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewDigitalPlatform.Start", "NewDigitalPlatform.Start.csproj", "{AC4B4DBA-FBDB-48AF-A8F5-2AF9C8B5C109}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewDigitalPlatform.Start", "NewDigitalPlatform.Start.csproj", "{AC4B4DBA-FBDB-48AF-A8F5-2AF9C8B5C109}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewDigitalPlatform.Views", "..\NewDigitPlatform.Views\NewDigitalPlatform.Views.csproj", "{0D235902-8965-4263-BF43-2173FCBBF33A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewDigitalPlatform.Views", "..\NewDigitPlatform.Views\NewDigitalPlatform.Views.csproj", "{0D235902-8965-4263-BF43-2173FCBBF33A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewDigitalPlatform.ViewModels", "..\NewDigitalPlatform.ViewModels\NewDigitalPlatform.ViewModels.csproj", "{63D5950A-4D93-4DF4-95B6-CCE04A1FD343}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewDigitalPlatform.ViewModels", "..\NewDigitalPlatform.ViewModels\NewDigitalPlatform.ViewModels.csproj", "{63D5950A-4D93-4DF4-95B6-CCE04A1FD343}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewDigitalPlatform.Models", "..\NewDigitalPlatform.Models\NewDigitalPlatform.Models.csproj", "{9BA96AC6-57CD-42E7-8E22-F79819138EAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewDigitalPlatform.Models", "..\NewDigitalPlatform.Models\NewDigitalPlatform.Models.csproj", "{9BA96AC6-57CD-42E7-8E22-F79819138EAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewDigitalPlatform.Assets", "..\NewDigitalPlatform.Assets\NewDigitalPlatform.Assets.csproj", "{582BD049-F5BE-48D3-95F2-0838798C35C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewDigitalPlatform.Assets", "..\NewDigitalPlatform.Assets\NewDigitalPlatform.Assets.csproj", "{582BD049-F5BE-48D3-95F2-0838798C35C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewDigitalPlatform.DataAssets", "..\NewDigitalPlatform.DataAssets\NewDigitalPlatform.DataAssets.csproj", "{BEFA711F-22AF-40B2-9C08-EF6A2AE401E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewDigitalPlatform.DataAssets", "..\NewDigitalPlatform.DataAssets\NewDigitalPlatform.DataAssets.csproj", "{BEFA711F-22AF-40B2-9C08-EF6A2AE401E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewDigitalPlatform.Components", "..\NewDigitalPlatform.Components\NewDigitalPlatform.Components.csproj", "{7D6C79A7-3508-4342-8662-3A8C93944C22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{BEFA711F-22AF-40B2-9C08-EF6A2AE401E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEFA711F-22AF-40B2-9C08-EF6A2AE401E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEFA711F-22AF-40B2-9C08-EF6A2AE401E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D6C79A7-3508-4342-8662-3A8C93944C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D6C79A7-3508-4342-8662-3A8C93944C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D6C79A7-3508-4342-8662-3A8C93944C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D6C79A7-3508-4342-8662-3A8C93944C22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

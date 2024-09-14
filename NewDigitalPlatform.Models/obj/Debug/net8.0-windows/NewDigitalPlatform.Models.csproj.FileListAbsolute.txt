@@ -10,3 +10,7 @@ H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\n
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\net8.0-windows\NewDigitalPlatform.Models.pdb
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\net8.0-windows\ref\NewDigitalPlatform.Models.dll
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\net8.0-windows\NewDigitalPlatform.Models.csproj.AssemblyReference.cache
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\net8.0-windows\NewDigitalPlatform.Models.sourcelink.json
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\bin\Debug\net8.0-windows\NewDigitalPlatform.Components.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\bin\Debug\net8.0-windows\NewDigitalPlatform.Components.pdb
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\net8.0-windows\NewDigit.68508270.Up2Date

@@ -43,18 +43,17 @@ namespace DigitaPlatform.ViewModels
                 if (data == null) throw new Exception("登录失败，没有用户信息");
 
                 // 记录一下主窗口所需要的用户信息，对于SimpleIOC   同一个实例，默认是单例
-                //var main = ServiceLocator.Current.GetInstance<MainViewModel>();
-                var main = DependencyInjection.GetService<MainWindowViewModel>();
+                var main = DependencyInjection.GetService<UserModel>();
                 
                 if (main != null)
                 {
-                    main.GlobalUserInfo.UserName = User.UserName;
-                    main.GlobalUserInfo.Password = User.Password;
-                    main.GlobalUserInfo.RealName = data.Rows[0]["real_name"].ToString()!;
-                    main.GlobalUserInfo.UserType = int.Parse(data.Rows[0]["user_type"].ToString()!);
-                    main.GlobalUserInfo.Gender = int.Parse(data.Rows[0]["gender"].ToString()!);
-                    main.GlobalUserInfo.Department = data.Rows[0]["department"].ToString()!;
-                    main.GlobalUserInfo.PhoneNumber = data.Rows[0]["phone_num"].ToString()!;
+                    main.UserName = User.UserName;
+                    main.Password = User.Password;
+                    main.RealName = data.Rows[0]["real_name"].ToString()!;
+                    main.UserType = int.Parse(data.Rows[0]["user_type"].ToString()!);
+                    main.Gender = int.Parse(data.Rows[0]["gender"].ToString()!);
+                    main.Department = data.Rows[0]["department"].ToString()!;
+                    main.PhoneNumber = data.Rows[0]["phone_num"].ToString()!;
                 }
                 
                 (obj as Window).DialogResult = true;

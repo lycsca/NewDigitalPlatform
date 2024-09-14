@@ -28,3 +28,16 @@ H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8.0-windows\Login.baml
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\bin\Debug\net8.0-windows\NewDigitalPlatform.Views.runtimeconfig.json
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8.0-windows\NewDigitalPlatform.Views.genruntimeconfig.cache
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8.0-windows\NewDigitalPlatform.Views.sourcelink.json
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8.0-windows\Pages\AlarmPage.g.cs
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8.0-windows\Pages\MonitorPage.g.cs
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8.0-windows\Pages\ReportPage.g.cs
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8.0-windows\Pages\SettingsPage.g.cs
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8.0-windows\Pages\TrendPage.g.cs
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\bin\Debug\net8.0-windows\NewDigitalPlatform.Components.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\bin\Debug\net8.0-windows\NewDigitalPlatform.Components.pdb
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8.0-windows\Pages\AlarmPage.baml
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8.0-windows\Pages\MonitorPage.baml
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8.0-windows\Pages\ReportPage.baml
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8.0-windows\Pages\SettingsPage.baml
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8.0-windows\Pages\TrendPage.baml

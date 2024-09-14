@@ -17,3 +17,6 @@ H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.ViewModels\obj\Deb
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.ViewModels\obj\Debug\net8.0-windows\ref\NewDigitalPlatform.ViewModels.dll
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.ViewModels\bin\Debug\net8.0-windows\NewDigitalPlatform.ViewModels.runtimeconfig.json
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.ViewModels\obj\Debug\net8.0-windows\NewDigitalPlatform.ViewModels.genruntimeconfig.cache
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.ViewModels\obj\Debug\net8.0-windows\NewDigitalPlatform.ViewModels.sourcelink.json
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.ViewModels\bin\Debug\net8.0-windows\NewDigitalPlatform.Components.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.ViewModels\bin\Debug\net8.0-windows\NewDigitalPlatform.Components.pdb

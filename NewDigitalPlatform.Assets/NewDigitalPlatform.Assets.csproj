@@ -69,4 +69,8 @@
     <Resource Include="Styles\ComboBoxStyles.xaml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Converter\" />
+  </ItemGroup>
+
 </Project>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NewDigitalPlatform.Assets")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89c80cfe1d94bcba51955ae2e2378624a929e234")]
 [assembly: System.Reflection.AssemblyProductAttribute("NewDigitalPlatform.Assets")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NewDigitalPlatform.Assets")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
