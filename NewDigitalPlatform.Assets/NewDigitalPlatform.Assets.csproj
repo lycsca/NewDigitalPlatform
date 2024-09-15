@@ -43,6 +43,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NewDigitalPlatform.Components\NewDigitalPlatform.Components.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Fonts\digital_display.ttf" />
     <Resource Include="Fonts\iconfont.ttf" />
     <Resource Include="Fonts\iconfont.zip" />
@@ -67,10 +71,6 @@
     <Resource Include="Images\Thumbs\valve3.png" />
     <Resource Include="Styles\ButtonStyles.xaml" />
     <Resource Include="Styles\ComboBoxStyles.xaml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Converter\" />
   </ItemGroup>
 
 </Project>

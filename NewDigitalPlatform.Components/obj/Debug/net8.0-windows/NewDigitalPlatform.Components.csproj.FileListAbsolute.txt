@@ -10,3 +10,8 @@ H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Components\obj\Deb
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Components\obj\Debug\net8.0-windows\refint\NewDigitalPlatform.Components.dll
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Components\obj\Debug\net8.0-windows\NewDigitalPlatform.Components.pdb
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Components\obj\Debug\net8.0-windows\ref\NewDigitalPlatform.Components.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Components\obj\Debug\net8.0-windows\Meter.g.cs
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Components\obj\Debug\net8.0-windows\NewDigitalPlatform.Components_MarkupCompile.cache
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Components\obj\Debug\net8.0-windows\NewDigitalPlatform.Components_MarkupCompile.lref
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Components\obj\Debug\net8.0-windows\Meter.baml
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Components\obj\Debug\net8.0-windows\NewDigitalPlatform.Components.g.resources

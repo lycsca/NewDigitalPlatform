@@ -35,7 +35,11 @@
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj": {
+                "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -389,6 +393,18 @@
               "target": "Package",
               "version": "[8.3.1, )"
             },
+            "LiveChartsCore": {
+              "target": "Package",
+              "version": "[2.0.0-rc2, )"
+            },
+            "LiveChartsCore.SkiaSharpView": {
+              "target": "Package",
+              "version": "[2.0.0-rc2, )"
+            },
+            "LiveChartsCore.SkiaSharpView.WPF": {
+              "target": "Package",
+              "version": "[2.0.0-rc2, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -452,6 +468,9 @@
               "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Assets\\NewDigitalPlatform.Assets.csproj": {
                 "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Assets\\NewDigitalPlatform.Assets.csproj"
               },
+              "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj": {
+                "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj"
+              },
               "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj": {
                 "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj"
               },
@@ -480,9 +499,9 @@
               "target": "Package",
               "version": "[8.3.1, )"
             },
-            "LiveChartsCore.SkiaSharpView.WPF": {
+            "LiveCharts.Wpf": {
               "target": "Package",
-              "version": "[2.0.0-rc2, )"
+              "version": "[0.9.7, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",

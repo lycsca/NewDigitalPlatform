@@ -65,3 +65,5 @@ H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Start\bin\Debug\net8
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Start\bin\Debug\net8.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Start\bin\Debug\net8.0-windows\NewDigitalPlatform.Components.dll
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Start\bin\Debug\net8.0-windows\NewDigitalPlatform.Components.pdb
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Start\bin\Debug\net8.0-windows\LiveCharts.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Start\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll

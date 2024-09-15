@@ -12,3 +12,6 @@ H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\obj\Debug\n
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\obj\Debug\net8.0-windows\NewDigitalPlatform.Assets.csproj.AssemblyReference.cache
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\obj\Debug\net8.0-windows\NewDigitalPlatform.Assets.g.resources
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\obj\Debug\net8.0-windows\NewDigitalPlatform.Assets.sourcelink.json
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\bin\Debug\net8.0-windows\NewDigitalPlatform.Components.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\bin\Debug\net8.0-windows\NewDigitalPlatform.Components.pdb
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Assets\obj\Debug\net8.0-windows\NewDigit.7FFCAA1D.Up2Date

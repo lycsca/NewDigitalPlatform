@@ -1,0 +1,634 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitPlatform.Start\\NewDigitalPlatform.Start.csproj": {}
+  },
+  "projects": {
+    "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Assets\\NewDigitalPlatform.Assets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Assets\\NewDigitalPlatform.Assets.csproj",
+        "projectName": "NewDigitalPlatform.Assets",
+        "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Assets\\NewDigitalPlatform.Assets.csproj",
+        "packagesPath": "C:\\Users\\csca\\.nuget\\packages\\",
+        "outputPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Assets\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "D:\\共享组件，工具和SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\csca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj": {
+                "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.3.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj",
+        "projectName": "NewDigitalPlatform.Components",
+        "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj",
+        "packagesPath": "C:\\Users\\csca\\.nuget\\packages\\",
+        "outputPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "D:\\共享组件，工具和SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\csca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\NewDigitalPlatform.DataAssets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\NewDigitalPlatform.DataAssets.csproj",
+        "projectName": "NewDigitalPlatform.DataAssets",
+        "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\NewDigitalPlatform.DataAssets.csproj",
+        "packagesPath": "C:\\Users\\csca\\.nuget\\packages\\",
+        "outputPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "D:\\共享组件，工具和SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\csca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.3.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj",
+        "projectName": "NewDigitalPlatform.Models",
+        "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj",
+        "packagesPath": "C:\\Users\\csca\\.nuget\\packages\\",
+        "outputPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "D:\\共享组件，工具和SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\csca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj": {
+                "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.3.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.ViewModels\\NewDigitalPlatform.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.ViewModels\\NewDigitalPlatform.ViewModels.csproj",
+        "projectName": "NewDigitalPlatform.ViewModels",
+        "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.ViewModels\\NewDigitalPlatform.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\csca\\.nuget\\packages\\",
+        "outputPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "D:\\共享组件，工具和SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\csca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj": {
+                "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj"
+              },
+              "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\NewDigitalPlatform.DataAssets.csproj": {
+                "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\NewDigitalPlatform.DataAssets.csproj"
+              },
+              "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj": {
+                "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.3.1, )"
+            },
+            "LiveChartsCore": {
+              "target": "Package",
+              "version": "[2.0.0-rc2, )"
+            },
+            "LiveChartsCore.SkiaSharpView": {
+              "target": "Package",
+              "version": "[2.0.0-rc2, )"
+            },
+            "LiveChartsCore.SkiaSharpView.WPF": {
+              "target": "Package",
+              "version": "[2.0.0-rc2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitPlatform.Start\\NewDigitalPlatform.Start.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitPlatform.Start\\NewDigitalPlatform.Start.csproj",
+        "projectName": "NewDigitalPlatform.Start",
+        "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitPlatform.Start\\NewDigitalPlatform.Start.csproj",
+        "packagesPath": "C:\\Users\\csca\\.nuget\\packages\\",
+        "outputPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitPlatform.Start\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "D:\\共享组件，工具和SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\csca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj": {
+                "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj"
+              },
+              "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.ViewModels\\NewDigitalPlatform.ViewModels.csproj": {
+                "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.ViewModels\\NewDigitalPlatform.ViewModels.csproj"
+              },
+              "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitPlatform.Views\\NewDigitalPlatform.Views.csproj": {
+                "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitPlatform.Views\\NewDigitalPlatform.Views.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.3.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitPlatform.Views\\NewDigitalPlatform.Views.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitPlatform.Views\\NewDigitalPlatform.Views.csproj",
+        "projectName": "NewDigitalPlatform.Views",
+        "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitPlatform.Views\\NewDigitalPlatform.Views.csproj",
+        "packagesPath": "C:\\Users\\csca\\.nuget\\packages\\",
+        "outputPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitPlatform.Views\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "D:\\共享组件，工具和SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\csca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Assets\\NewDigitalPlatform.Assets.csproj": {
+                "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Assets\\NewDigitalPlatform.Assets.csproj"
+              },
+              "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj": {
+                "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj"
+              },
+              "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj": {
+                "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj"
+              },
+              "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.ViewModels\\NewDigitalPlatform.ViewModels.csproj": {
+                "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.ViewModels\\NewDigitalPlatform.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.3.1, )"
+            },
+            "LiveChartsCore": {
+              "target": "Package",
+              "version": "[2.0.0-rc2, )"
+            },
+            "LiveChartsCore.SkiaSharpView": {
+              "target": "Package",
+              "version": "[2.0.0-rc2, )"
+            },
+            "LiveChartsCore.SkiaSharpView.WPF": {
+              "target": "Package",
+              "version": "[2.0.0-rc2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
