@@ -15,6 +15,7 @@ namespace NewDigitPlatform.Start
         {
             base.OnStartup(e);
             DependencyInjection.ConfigureServices();
+           
            //var mainWindow = DependencyInjection.GetService<MainWindow>();
            // mainWindow.Show();
 

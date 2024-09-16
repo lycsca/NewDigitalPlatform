@@ -2,7 +2,37 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Page Update="AdsorptionDryer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AirCompressor.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Filter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FreezeDryer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GasTank.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="HeightRule.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="HorizontalPipeline.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Meter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RAJoints.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VerticalPipeline.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WidthRule.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
