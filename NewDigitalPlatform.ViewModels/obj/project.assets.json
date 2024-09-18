@@ -704,7 +704,8 @@
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.3.1",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
-          "NewDigitalPlatform.Components": "1.0.0"
+          "NewDigitalPlatform.Components": "1.0.0",
+          "NewDigitalPlatform.DataAssets": "1.0.0"
         },
         "compile": {
           "bin/placeholder/NewDigitalPlatform.Models.dll": {}

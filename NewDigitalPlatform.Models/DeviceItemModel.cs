@@ -7,6 +7,8 @@ using System.Windows.Shapes;
 using System.Windows;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using NewDigitalPlatform.DataAssets.Imp;
+using NewDigitalPlatform.Entities;
 
 
 namespace NewDigitalPlatform.Models;
@@ -22,7 +24,7 @@ public partial class DeviceItemModel : ObservableObject
     public bool _isSelected;
 
     [ObservableProperty]
-    public bool _isVisible ;
+    public bool _isVisible =true;
 
 
 
@@ -64,6 +66,8 @@ public partial class DeviceItemModel : ObservableObject
     public RelayCommand AddVariableCommand { get; set; }
     public RelayCommand<VariableModel> DeleteVariableCommand { get; set; }
 
+    public RelayCommand AddManualControlCommand { get; set; }
+    public RelayCommand<ManualControlModel> DeleteManualControlCommand { get; set; }
 
     #region 缩放动作命令
     public RelayCommand<object> ResizeDownCommand { get; set; }
@@ -84,9 +88,21 @@ public partial class DeviceItemModel : ObservableObject
             new VariableModel{ VarName="温度",VarAddress="40001",Offset=0,Modulus=1},
         };
 
+    public ObservableCollection<ManualControlModel> ManualControlList { get; set; } =
+           new ObservableCollection<ManualControlModel>()
+           {
+               //new ManualControlModel{ ControlHeader="远程启动",ControlAddress="40008",Value="1"},
+               //new ManualControlModel{ ControlHeader="远程停机",ControlAddress="40008",Value="2"},
+               //new ManualControlModel{ ControlHeader="卸载",ControlAddress="40008",Value="4"},
+               //new ManualControlModel{ ControlHeader="加载",ControlAddress="40008",Value="8"},
+           };
 
-    public DeviceItemModel()
+
+    ILocalDataAccess _localDataAccess;
+    public DeviceItemModel(ILocalDataAccess localDataAccess)
     {
+        _localDataAccess = localDataAccess;
+
         AddPropCommand = new RelayCommand(() =>
         {
             PropList.Add(new DevicePropModel() { PropName = "Protocol", PropValue = "ModbusRtu" });
@@ -100,6 +116,18 @@ public partial class DeviceItemModel : ObservableObject
             VariableList.Add(new VariableModel() { VarNum = DateTime.Now.ToString("yyyyMMddHHmmssFFF") });
         });
         DeleteVariableCommand = new RelayCommand<VariableModel>(model => VariableList.Remove(model));
+
+
+        AddManualControlCommand = new RelayCommand(() =>
+        {
+            ManualControlList.Add(new ManualControlModel());
+        });
+        DeleteManualControlCommand = new RelayCommand<ManualControlModel>(model =>
+        {
+            ManualControlList.Remove(model);
+        });
+
+       
 
         // 处理组件尺寸缩放
         ResizeDownCommand = new RelayCommand<object>(DoResizeDown);

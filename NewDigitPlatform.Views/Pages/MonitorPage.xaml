@@ -8,6 +8,7 @@
              xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
              xmlns:c="clr-namespace:NewDigitalPlatform.Assets.Converter;assembly=NewDigitalPlatform.Assets"
              mc:Ignorable="d" 
+             xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
              d:DesignHeight="750" d:DesignWidth="1300" Background="Transparent">
     <!--资源词典-->
@@ -19,6 +20,7 @@
                     <!--自定义转换器-->
                     <c:UserTypeValueConverter x:Key="UserTypeValueConverter"/>
                     <c:DeviceItemConverter x:Key="dic"/>
+                    <BooleanToVisibilityConverter x:Key="b2v"/>
                     <!--自定义GroupBox样式-->
                     <Style TargetType="GroupBox">
                         <Setter Property="Margin" Value="0,5" />
@@ -337,8 +339,21 @@
                 <RowDefinition Height="200"/>
             </Grid.RowDefinitions>
 
+            
+            
+            
+            
+            
             <!--组件区域-->
-            <ItemsControl ItemsSource="{Binding DeviceList}">
+            <ItemsControl  
+              ItemsSource="{Binding DeviceList}" AllowDrop="True">
+                <b:Interaction.Triggers>
+                    <b:EventTrigger EventName="Drop">
+                        <!--<b:CallMethodAction MethodName="ItemsControlDrop" TargetObject="{Binding}"/>-->
+                        <b:InvokeCommandAction Command="{Binding ItemDropCommand}"
+                                   PassEventArgsToCommand="True"/>
+                    </b:EventTrigger>
+                </b:Interaction.Triggers>
                 <ItemsControl.ItemContainerStyle>
                     <Style TargetType="ContentPresenter">
                         <Setter Property="Canvas.Left" Value="{Binding X}"/>
@@ -346,20 +361,68 @@
                         <Setter Property="Panel.ZIndex" Value="{Binding Z}"/>
                     </Style>
                 </ItemsControl.ItemContainerStyle>
+                <!--布局方式调整-->
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
-                        <Canvas/>
+                        <Canvas Background="Transparent" ClipToBounds="True">
+                            <b:Interaction.Triggers>
+                                <b:EventTrigger EventName="MouseLeftButtonDown">
+                                    <b:InvokeCommandAction 
+                                    Command="{Binding DeviceSelectedCommand}" />
+                                </b:EventTrigger>
+                            </b:Interaction.Triggers>
+                        </Canvas>
                     </ItemsPanelTemplate>
                 </ItemsControl.ItemsPanel>
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <ContentControl  Content="{Binding Path=DeviceType,Converter={StaticResource dic}}"
-                        Width="{Binding Width}" Height="{Binding Height}">
+                        <!--呈现对象需要根据动态添加的子项进行不同组件的创建-->
+                        <!--DataTempalteSelector-->
+                        <!--触发器-->
+                        <!--<c:UserControl1 Width="{Binding Width}" Height="{Binding Height}"/>-->
+                        <!--画布中每个组件的父对象-->
+                        <ContentControl Content="{Binding Path=DeviceType,Converter={StaticResource dic}}"
+                         Width="{Binding Width}" Height="{Binding Height}"
+                            Visibility="{Binding IsVisible,Converter={StaticResource b2v}}"
+                            RenderTransformOrigin="0.5,0.5" Name="content">
+                            <b:Interaction.Triggers>
+                                <b:EventTrigger EventName="MouseLeftButtonDown">
+                                    <!--{Binding}  当前子项对应的数据源，数据源不是集合对象，是集合中对应的子项模型-->
+                                    <b:CallMethodAction MethodName="OnMouseLeftButtonDown" TargetObject="{Binding}"/>
+                                    <b:InvokeCommandAction 
+                        Command="{Binding DataContext.DeviceSelectedCommand,ElementName=win}"    
+                        CommandParameter="{Binding}"/>
+                                </b:EventTrigger>
+                                <b:EventTrigger EventName="MouseMove">
+                                    <b:CallMethodAction MethodName="OnMouseMove" TargetObject="{Binding}"/>
+                                </b:EventTrigger>
+                                <b:EventTrigger EventName="MouseLeftButtonUp">
+                                    <b:CallMethodAction MethodName="OnMouseLeftButtonUp" TargetObject="{Binding}"/>
+                                </b:EventTrigger>
+                            </b:Interaction.Triggers>
+                            <ContentControl.ContextMenu>
+                                <ContextMenu ItemsSource="{Binding ContextMenus}" AlternationCount="100">
+                                    <ContextMenu.Resources>
+                                        <Style TargetType="Separator">
+                                            <Style.Triggers>
+                                                <Trigger Property="ItemsControl.AlternationIndex" Value="0">
+                                                    <Setter Property="Visibility" Value="Visible"/>
+                                                </Trigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </ContextMenu.Resources>
+                                </ContextMenu>
+                            </ContentControl.ContextMenu>
                         </ContentControl>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
 
+            
+            
+            
+            
+            
             <!--设备运行状态-->
             <GroupBox Grid.Row="1" Header="设备运行状态" Margin="10,5">
                 <Grid Margin="10,30,0,0">

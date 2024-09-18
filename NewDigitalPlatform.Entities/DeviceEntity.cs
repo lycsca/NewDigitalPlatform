@@ -14,10 +14,11 @@ namespace NewDigitalPlatform.Entities
         public string DeviceTypeName { get; set; }
         public string Header { get; set; }
 
-        public string FlowDirection { get; set; }
-        public string Rotate { get; set; }
+        public string FlowDirection { get; set; } = "0";
+        public string Rotate { get; set; } = "0";
 
         public List<DevicePropItemEntity> Props { get; set; }
         public List<VariableEntity> Vars { get; set; }
+        public List<ManualEntity> ManualControls { get; set; }
     }
 }

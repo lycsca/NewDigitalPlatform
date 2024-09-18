@@ -14,3 +14,9 @@ H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\n
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\bin\Debug\net8.0-windows\NewDigitalPlatform.Components.dll
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\bin\Debug\net8.0-windows\NewDigitalPlatform.Components.pdb
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\net8.0-windows\NewDigit.68508270.Up2Date
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\bin\Debug\net8.0-windows\NewDigitalPlatform.Models.runtimeconfig.json
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\bin\Debug\net8.0-windows\NewDigitalPlatform.DataAssets.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\bin\Debug\net8.0-windows\NewDigitalPlatform.Entities.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\bin\Debug\net8.0-windows\NewDigitalPlatform.DataAssets.pdb
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\bin\Debug\net8.0-windows\NewDigitalPlatform.Entities.pdb
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Models\obj\Debug\net8.0-windows\NewDigitalPlatform.Models.genruntimeconfig.cache

@@ -269,6 +269,9 @@
             "projectReferences": {
               "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj": {
                 "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj"
+              },
+              "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\NewDigitalPlatform.DataAssets.csproj": {
+                "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\NewDigitalPlatform.DataAssets.csproj"
               }
             }
           }
