@@ -3,6 +3,7 @@ using CommunityToolkit.Mvvm.Input;
 using LiveChartsCore;
 using LiveChartsCore.SkiaSharpView;
 using LiveChartsCore.SkiaSharpView.Painting;
+using NewDigitalPlatform.DataAssets.Imp;
 using NewDigitalPlatform.Models;
 using SkiaSharp;
 using System;
@@ -33,15 +34,17 @@ namespace NewDigitalPlatform.ViewModels
         [ObservableProperty]
         public List<MonitorWarnningModel> _warnningList;
 
+        [ObservableProperty]
+        public List<DeviceItemModel> _deviceList;
 
-
-
+        private  ILocalDataAccess _localDataAccess;
 
         //命令
         public RelayCommand<object> SwitchPageCommand { get; set; }
 
-        public   MainWindowViewModel()
+        public   MainWindowViewModel(ILocalDataAccess localDataAccess)
         {
+            _localDataAccess = localDataAccess;
             _globalUserInfo = DependencyInjection.GetService<UserModel>();
             Menus = new List<MenuModel>();
             #region 菜单数据
@@ -117,6 +120,30 @@ namespace NewDigitalPlatform.ViewModels
                 };
             #endregion
 
+            #region 设备
+            this.ComponentsInit();
+            #endregion
+
+        }
+
+
+        private void ComponentsInit()
+        {
+            var ds = _localDataAccess.GetDevices().Select(d =>
+            {
+                return new DeviceItemModel()
+                {
+                    X = double.Parse(d.X),
+                    Y = double.Parse(d.Y),
+                    Z = int.Parse(d.Z),
+                    Width = double.Parse(d.W),
+                    Height = double.Parse(d.H),
+                    DeviceType = d.DeviceTypeName,
+                    DeviceNum = d.DeviceNum
+                };
+            });
+            DeviceList = ds.ToList();
+          
         }
 
         [RelayCommand]

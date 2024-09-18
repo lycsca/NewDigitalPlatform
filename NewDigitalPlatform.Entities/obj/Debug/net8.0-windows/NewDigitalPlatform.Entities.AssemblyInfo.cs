@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NewDigitalPlatform.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6ce168e2f54e2c6f852fb46196b544be8952eb0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08984fcc7785bed57829d14ddaa56ce1af516327")]
 [assembly: System.Reflection.AssemblyProductAttribute("NewDigitalPlatform.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NewDigitalPlatform.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

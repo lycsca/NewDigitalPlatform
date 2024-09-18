@@ -29,6 +29,9 @@
     <Page Update="RAJoints.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="TeeJoints.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="VerticalPipeline.xaml">
       <SubType>Designer</SubType>
     </Page>

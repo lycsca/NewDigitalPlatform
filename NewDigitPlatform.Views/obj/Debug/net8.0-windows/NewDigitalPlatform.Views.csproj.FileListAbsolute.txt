@@ -41,3 +41,5 @@ H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8.0-windows\Pages\ReportPage.baml
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8.0-windows\Pages\SettingsPage.baml
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\obj\Debug\net8.0-windows\Pages\TrendPage.baml
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\bin\Debug\net8.0-windows\NewDigitalPlatform.Entities.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Views\bin\Debug\net8.0-windows\NewDigitalPlatform.Entities.pdb

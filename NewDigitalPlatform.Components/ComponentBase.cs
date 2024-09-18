@@ -44,8 +44,6 @@ namespace NewDigitalPlatform.Components
             DependencyProperty.Register("IsSelected", typeof(bool), typeof(ComponentBase), new PropertyMetadata(false));
 
 
-
-
         public ICommand ResizeDownCommand
         {
             get { return (ICommand)GetValue(ResizeDownCommandProperty); }
@@ -93,10 +91,75 @@ namespace NewDigitalPlatform.Components
             }));
 
 
+
+        public bool IsWarning
+        {
+            get { return (bool)GetValue(IsWarningProperty); }
+            set { SetValue(IsWarningProperty, value); }
+        }
+        public static readonly DependencyProperty IsWarningProperty =
+            DependencyProperty.Register("IsWarning", typeof(bool), typeof(ComponentBase), new PropertyMetadata(false, (d, e) =>
+            {
+                if (e.NewValue.ToString() != e.OldValue.ToString())
+                    VisualStateManager.GoToState(d as ComponentBase, (bool)e.NewValue ? "WarningState" : "NormalState", false);
+            }));
+
+
+        public string WarningMessage
+        {
+            get { return (string)GetValue(WarningMessageProperty); }
+            set { SetValue(WarningMessageProperty, value); }
+        }
+        public static readonly DependencyProperty WarningMessageProperty =
+            DependencyProperty.Register("WarningMessage", typeof(string), typeof(ComponentBase), new PropertyMetadata(""));
+
+
+        // 是否属于监控状态
+        public bool IsMonitor
+        {
+            get { return (bool)GetValue(IsMonitorProperty); }
+            set { SetValue(IsMonitorProperty, value); }
+        }
+        public static readonly DependencyProperty IsMonitorProperty =
+            DependencyProperty.Register("IsMonitor", typeof(bool), typeof(ComponentBase), new PropertyMetadata(false));
+
+        public object VarList
+        {
+            get { return (object)GetValue(VarListProperty); }
+            set { SetValue(VarListProperty, value); }
+        }
+        public static readonly DependencyProperty VarListProperty =
+            DependencyProperty.Register("VarList", typeof(object), typeof(ComponentBase), new PropertyMetadata(null));
+
+
+
+        public object ControlList
+        {
+            get { return (object)GetValue(ControlListProperty); }
+            set { SetValue(ControlListProperty, value); }
+        }
+        public static readonly DependencyProperty ControlListProperty =
+            DependencyProperty.Register("ControlList", typeof(object), typeof(ComponentBase), new PropertyMetadata(null));
+
+
+
+        public ICommand ManualControlCommand
+        {
+            get { return (ICommand)GetValue(ManualControlCommandProperty); }
+            set { SetValue(ManualControlCommandProperty, value); }
+        }
+        public static readonly DependencyProperty ManualControlCommandProperty =
+            DependencyProperty.Register("ManualControlCommand", typeof(ICommand), typeof(ComponentBase), new PropertyMetadata(null));
+
+
+
+
+
         bool is_move = false;
         Point start = new Point(0, 0);
         public void Ellipse_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
+
             ResizeDownCommand?.Execute(e);
         }
 
@@ -109,9 +172,9 @@ namespace NewDigitalPlatform.Components
         public void Ellipse_MouseMove(object sender, MouseEventArgs e)
         {
             ResizeMoveCommand?.Execute(e);
-
         }
-   
+ 
+
 
         public void Button_Click(object sender, RoutedEventArgs e)
         {

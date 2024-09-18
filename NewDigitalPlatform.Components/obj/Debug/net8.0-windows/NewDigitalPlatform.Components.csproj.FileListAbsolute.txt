@@ -36,3 +36,5 @@ H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Components\obj\Deb
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Components\obj\Debug\net8.0-windows\RAJoints.baml
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Components\obj\Debug\net8.0-windows\VerticalPipeline.baml
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Components\obj\Debug\net8.0-windows\WidthRule.baml
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Components\obj\Debug\net8.0-windows\TeeJoints.g.cs
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.Components\obj\Debug\net8.0-windows\TeeJoints.baml

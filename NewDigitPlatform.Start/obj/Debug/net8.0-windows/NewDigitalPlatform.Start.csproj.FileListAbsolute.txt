@@ -67,3 +67,5 @@ H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Start\bin\Debug\net8
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Start\bin\Debug\net8.0-windows\NewDigitalPlatform.Components.pdb
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Start\bin\Debug\net8.0-windows\LiveCharts.dll
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Start\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Start\bin\Debug\net8.0-windows\NewDigitalPlatform.Entities.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitPlatform.Start\bin\Debug\net8.0-windows\NewDigitalPlatform.Entities.pdb

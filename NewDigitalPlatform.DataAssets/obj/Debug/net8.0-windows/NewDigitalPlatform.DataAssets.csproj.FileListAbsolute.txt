@@ -13,3 +13,6 @@ H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.DataAssets\obj\Deb
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.DataAssets\bin\Debug\net8.0-windows\NewDigitalPlatform.DataAssets.runtimeconfig.json
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.DataAssets\obj\Debug\net8.0-windows\NewDigitalPlatform.DataAssets.genruntimeconfig.cache
 H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.DataAssets\obj\Debug\net8.0-windows\NewDigitalPlatform.DataAssets.sourcelink.json
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.DataAssets\bin\Debug\net8.0-windows\NewDigitalPlatform.Entities.dll
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.DataAssets\bin\Debug\net8.0-windows\NewDigitalPlatform.Entities.pdb
+H:\CODE\c#\GitHub项目\NewDigitalPlatform\NewDigitalPlatform.DataAssets\obj\Debug\net8.0-windows\NewDigit.FC7972C6.Up2Date

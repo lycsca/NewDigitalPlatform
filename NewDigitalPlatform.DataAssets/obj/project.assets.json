@@ -440,6 +440,19 @@
             "rid": "win"
           }
         }
+      },
+      "NewDigitalPlatform.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/NewDigitalPlatform.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NewDigitalPlatform.Entities.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -1363,12 +1376,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "NewDigitalPlatform.Entities/1.0.0": {
+      "type": "project",
+      "path": "../NewDigitalPlatform.Entities/NewDigitalPlatform.Entities.csproj",
+      "msbuildProject": "../NewDigitalPlatform.Entities/NewDigitalPlatform.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "CommunityToolkit.Mvvm >= 8.3.1",
       "Microsoft.Extensions.DependencyInjection >= 8.0.0",
+      "NewDigitalPlatform.Entities >= 1.0.0",
       "System.Data.SQLite >= 1.0.118"
     ]
   },
@@ -1408,7 +1427,11 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Entities\\NewDigitalPlatform.Entities.csproj": {
+              "projectPath": "H:\\CODE\\c#\\GitHub项目\\NewDigitalPlatform\\NewDigitalPlatform.Entities\\NewDigitalPlatform.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

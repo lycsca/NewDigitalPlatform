@@ -384,10 +384,16 @@
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.3.1",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "NewDigitalPlatform.Entities": "1.0.0",
           "System.Data.SQLite": "1.0.118"
         },
         "runtime": {
           "NewDigitalPlatform.DataAssets.dll": {}
+        }
+      },
+      "NewDigitalPlatform.Entities/1.0.0": {
+        "runtime": {
+          "NewDigitalPlatform.Entities.dll": {}
         }
       },
       "NewDigitalPlatform.Models/1.0.0": {
@@ -680,6 +686,11 @@
       "sha512": ""
     },
     "NewDigitalPlatform.DataAssets/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NewDigitalPlatform.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

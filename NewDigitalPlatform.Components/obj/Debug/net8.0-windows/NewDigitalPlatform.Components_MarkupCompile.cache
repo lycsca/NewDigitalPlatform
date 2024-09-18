@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-112073634105
+121292112093
 
-141351622844
+15-1312482178
 198-635017904
-AdsorptionDryer.xaml;AirCompressor.xaml;Filter.xaml;FreezeDryer.xaml;GasTank.xaml;HeightRule.xaml;HorizontalPipeline.xaml;Meter.xaml;RAJoints.xaml;VerticalPipeline.xaml;WidthRule.xaml;
+AdsorptionDryer.xaml;AirCompressor.xaml;Filter.xaml;FreezeDryer.xaml;GasTank.xaml;HeightRule.xaml;HorizontalPipeline.xaml;Meter.xaml;RAJoints.xaml;TeeJoints.xaml;VerticalPipeline.xaml;WidthRule.xaml;
 
 False
 

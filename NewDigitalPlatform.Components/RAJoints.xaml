@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:NewDigitalPlatform.Components"
-             mc:Ignorable="d" 
+             mc:Ignorable="d"   x:Name="root"
              d:DesignHeight="40" d:DesignWidth="40">
     <UserControl.Effect>
         <DropShadowEffect BlurRadius="5" Color="#EEE" Opacity="0.1" ShadowDepth="0"/>
@@ -83,7 +83,7 @@
         </Grid>
 
         <!--Anchor-->
-        <Grid Visibility="{Binding IsSelected,Converter={StaticResource b2v}}">
+        <Grid Visibility="{Binding IsSelected,Converter={StaticResource b2v}, ElementName=root}">
             <Rectangle Stroke="#AAA" StrokeDashArray="3,3" RadiusX="3" RadiusY="3"/>
             <Ellipse Width="10" Height="10" Fill="White" VerticalAlignment="Bottom" HorizontalAlignment="Right"
                  Stroke="#AAA" Margin="-5" Cursor="SizeNWSE" 
@@ -92,7 +92,8 @@
                      MouseLeftButtonUp="Ellipse_MouseLeftButtonUp"/>
         </Grid>
 
-        <Button Margin="0,0,-25,0" Visibility="{Binding IsSelected,Converter={StaticResource b2v}}" 
+        <Button Margin="0,0,-25,0" 
+                Visibility="{Binding IsSelected,Converter={StaticResource b2v}, ElementName=root}" 
                 VerticalAlignment="Top" HorizontalAlignment="Right"
                 Style="{StaticResource DeleteButtonStyle}" Height="22" Width="22"
                 Click="Button_Click">
