@@ -6,7 +6,13 @@
       "AbsoluteMoniker": "D:0:0:{63D5950A-4D93-4DF4-95B6-CCE04A1FD343}|..\\NewDigitalPlatform.ViewModels\\NewDigitalPlatform.ViewModels.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BA96AC6-57CD-42E7-8E22-F79819138EAA}|..\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.models\\deviceitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D14C0C70-94E1-481C-9BD6-55271B11F3F8}|..\\NewDigitalPlatform.Entities\\NewDigitalPlatform.Entities.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.entities\\deviceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFA711F-22AF-40B2-9C08-EF6A2AE401E6}|..\\NewDigitalPlatform.DataAssets\\NewDigitalPlatform.DataAssets.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.dataassets\\localdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFA711F-22AF-40B2-9C08-EF6A2AE401E6}|..\\NewDigitalPlatform.DataAssets\\NewDigitalPlatform.DataAssets.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.dataassets\\imp\\ilocaldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D235902-8965-4263-BF43-2173FCBBF33A}|..\\NewDigitPlatform.Views\\NewDigitalPlatform.Views.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitplatform.views\\pages\\monitorpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
@@ -15,10 +21,16 @@
       "AbsoluteMoniker": "D:0:0:{0D235902-8965-4263-BF43-2173FCBBF33A}|..\\NewDigitPlatform.Views\\NewDigitalPlatform.Views.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitplatform.views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D6C79A7-3508-4342-8662-3A8C93944C22}|..\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.components\\teejoints.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BA96AC6-57CD-42E7-8E22-F79819138EAA}|..\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.models\\variablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D14C0C70-94E1-481C-9BD6-55271B11F3F8}|..\\NewDigitalPlatform.Entities\\NewDigitalPlatform.Entities.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.entities\\deviceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BA96AC6-57CD-42E7-8E22-F79819138EAA}|..\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.models\\thumbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA96AC6-57CD-42E7-8E22-F79819138EAA}|..\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.models\\deviceitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D6C79A7-3508-4342-8662-3A8C93944C22}|..\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.components\\teejoints.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D14C0C70-94E1-481C-9BD6-55271B11F3F8}|..\\NewDigitalPlatform.Entities\\NewDigitalPlatform.Entities.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.entities\\manualentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -27,28 +39,16 @@
       "AbsoluteMoniker": "D:0:0:{D14C0C70-94E1-481C-9BD6-55271B11F3F8}|..\\NewDigitalPlatform.Entities\\NewDigitalPlatform.Entities.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.entities\\conditionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEFA711F-22AF-40B2-9C08-EF6A2AE401E6}|..\\NewDigitalPlatform.DataAssets\\NewDigitalPlatform.DataAssets.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.dataassets\\localdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D14C0C70-94E1-481C-9BD6-55271B11F3F8}|..\\NewDigitalPlatform.Entities\\NewDigitalPlatform.Entities.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.entities\\variableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BA96AC6-57CD-42E7-8E22-F79819138EAA}|..\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.models\\manualcontrolmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BA96AC6-57CD-42E7-8E22-F79819138EAA}|..\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.models\\variablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEFA711F-22AF-40B2-9C08-EF6A2AE401E6}|..\\NewDigitalPlatform.DataAssets\\NewDigitalPlatform.DataAssets.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.dataassets\\imp\\ilocaldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D6C79A7-3508-4342-8662-3A8C93944C22}|..\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.components\\adsorptiondryer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D14C0C70-94E1-481C-9BD6-55271B11F3F8}|..\\NewDigitalPlatform.Entities\\NewDigitalPlatform.Entities.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.entities\\thumbentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BA96AC6-57CD-42E7-8E22-F79819138EAA}|..\\NewDigitalPlatform.Models\\NewDigitalPlatform.Models.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.models\\thumbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D6C79A7-3508-4342-8662-3A8C93944C22}|..\\NewDigitalPlatform.Components\\NewDigitalPlatform.Components.csproj|h:\\code\\c#\\github\u9879\u76EE\\newdigitalplatform\\newdigitalplatform.components\\componentbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -168,11 +168,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeviceItemModel.cs",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Models\\DeviceItemModel.cs",
+              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Models\\DeviceItemModel.cs",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Models\\DeviceItemModel.cs",
+              "RelativeToolTip": "..\\NewDigitalPlatform.Models\\DeviceItemModel.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAkwJcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T00:46:20.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LocalDataAccess.cs",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\LocalDataAccess.cs",
+              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.DataAssets\\LocalDataAccess.cs",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\LocalDataAccess.cs",
+              "RelativeToolTip": "..\\NewDigitalPlatform.DataAssets\\LocalDataAccess.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAswLAAAAB8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T01:34:24.577Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -182,52 +207,27 @@
               "RelativeDocumentMoniker": "..\\NewDigitalPlatform.ViewModels\\MainWindowViewModel.cs",
               "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "..\\NewDigitalPlatform.ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AQIAAJMAAAAAAAAAAAAqwKEAAABAAAAA",
+              "ViewState": "AQIAAAkBAAAAAAAAAAAowBUBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-14T13:00:11.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DeviceItemModel.cs",
-              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Models\\DeviceItemModel.cs",
-              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Models\\DeviceItemModel.cs",
-              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Models\\DeviceItemModel.cs",
-              "RelativeToolTip": "..\\NewDigitalPlatform.Models\\DeviceItemModel.cs",
-              "ViewState": "AQIAAJUAAAAAAAAAAAAkwJcAAAAYAAAA",
+              "DocumentIndex": 3,
+              "Title": "ILocalDataAccess.cs",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\Imp\\ILocalDataAccess.cs",
+              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.DataAssets\\Imp\\ILocalDataAccess.cs",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\Imp\\ILocalDataAccess.cs",
+              "RelativeToolTip": "..\\NewDigitalPlatform.DataAssets\\Imp\\ILocalDataAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T00:46:20.916Z",
+              "WhenOpened": "2024-09-18T01:31:03.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TeeJoints.xaml.cs",
-              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Components\\TeeJoints.xaml.cs",
-              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Components\\TeeJoints.xaml.cs",
-              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Components\\TeeJoints.xaml.cs",
-              "RelativeToolTip": "..\\NewDigitalPlatform.Components\\TeeJoints.xaml.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAADgvxgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T06:23:16.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitPlatform.Views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "..\\NewDigitPlatform.Views\\MainWindow.xaml",
-              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitPlatform.Views\\MainWindow.xaml",
-              "RelativeToolTip": "..\\NewDigitPlatform.Views\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-15T08:07:57.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MonitorPage.xaml",
               "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitPlatform.Views\\Pages\\MonitorPage.xaml",
               "RelativeDocumentMoniker": "..\\NewDigitPlatform.Views\\Pages\\MonitorPage.xaml",
@@ -239,85 +239,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "DeviceEntity.cs",
               "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Entities\\DeviceEntity.cs",
               "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Entities\\DeviceEntity.cs",
               "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Entities\\DeviceEntity.cs",
               "RelativeToolTip": "..\\NewDigitalPlatform.Entities\\DeviceEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxUAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T01:32:33.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ManualEntity.cs",
-              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Entities\\ManualEntity.cs",
-              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Entities\\ManualEntity.cs",
-              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Entities\\ManualEntity.cs",
-              "RelativeToolTip": "..\\NewDigitalPlatform.Entities\\ManualEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T08:37:49.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LocalDataAccess.cs",
-              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\LocalDataAccess.cs",
-              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.DataAssets\\LocalDataAccess.cs",
-              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\LocalDataAccess.cs",
-              "RelativeToolTip": "..\\NewDigitalPlatform.DataAssets\\LocalDataAccess.cs",
-              "ViewState": "AQIAAIsAAAAAAAAAAADgv5gAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T01:34:24.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "VariableEntity.cs",
-              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Entities\\VariableEntity.cs",
-              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Entities\\VariableEntity.cs",
-              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Entities\\VariableEntity.cs",
-              "RelativeToolTip": "..\\NewDigitalPlatform.Entities\\VariableEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAdAAAA",
+              "Title": "TeeJoints.xaml.cs",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Components\\TeeJoints.xaml.cs",
+              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Components\\TeeJoints.xaml.cs",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Components\\TeeJoints.xaml.cs",
+              "RelativeToolTip": "..\\NewDigitalPlatform.Components\\TeeJoints.xaml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADgvxgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T01:33:45.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:23:16.232Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ConditionEntity.cs",
-              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Entities\\ConditionEntity.cs",
-              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Entities\\ConditionEntity.cs",
-              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Entities\\ConditionEntity.cs",
-              "RelativeToolTip": "..\\NewDigitalPlatform.Entities\\ConditionEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAcAAAA",
+              "Title": "ThumbModel.cs",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Models\\ThumbModel.cs",
+              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Models\\ThumbModel.cs",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Models\\ThumbModel.cs",
+              "RelativeToolTip": "..\\NewDigitalPlatform.Models\\ThumbModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T08:11:06.493Z",
+              "WhenOpened": "2024-09-18T08:01:53.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ManualControlModel.cs",
-              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Models\\ManualControlModel.cs",
-              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Models\\ManualControlModel.cs",
-              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Models\\ManualControlModel.cs",
-              "RelativeToolTip": "..\\NewDigitalPlatform.Models\\ManualControlModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T08:23:41.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "VariableModel.cs",
               "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Models\\VariableModel.cs",
               "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Models\\VariableModel.cs",
@@ -330,20 +290,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ILocalDataAccess.cs",
-              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\Imp\\ILocalDataAccess.cs",
-              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.DataAssets\\Imp\\ILocalDataAccess.cs",
-              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.DataAssets\\Imp\\ILocalDataAccess.cs",
-              "RelativeToolTip": "..\\NewDigitalPlatform.DataAssets\\Imp\\ILocalDataAccess.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T01:31:03.542Z",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitPlatform.Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\NewDigitPlatform.Views\\MainWindow.xaml",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitPlatform.Views\\MainWindow.xaml",
+              "RelativeToolTip": "..\\NewDigitPlatform.Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-15T08:07:57.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ManualEntity.cs",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Entities\\ManualEntity.cs",
+              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Entities\\ManualEntity.cs",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Entities\\ManualEntity.cs",
+              "RelativeToolTip": "..\\NewDigitalPlatform.Entities\\ManualEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:37:49.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VariableEntity.cs",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Entities\\VariableEntity.cs",
+              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Entities\\VariableEntity.cs",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Entities\\VariableEntity.cs",
+              "RelativeToolTip": "..\\NewDigitalPlatform.Entities\\VariableEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T01:33:45.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConditionEntity.cs",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Entities\\ConditionEntity.cs",
+              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Entities\\ConditionEntity.cs",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Entities\\ConditionEntity.cs",
+              "RelativeToolTip": "..\\NewDigitalPlatform.Entities\\ConditionEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:11:06.493Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "ManualControlModel.cs",
+              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Models\\ManualControlModel.cs",
+              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Models\\ManualControlModel.cs",
+              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Models\\ManualControlModel.cs",
+              "RelativeToolTip": "..\\NewDigitalPlatform.Models\\ManualControlModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:23:41.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "AdsorptionDryer.xaml.cs",
               "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Components\\AdsorptionDryer.xaml.cs",
               "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Components\\AdsorptionDryer.xaml.cs",
@@ -351,12 +358,11 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\AdsorptionDryer.xaml.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAABgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T06:20:09.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:20:09.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ThumbEntity.cs",
               "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Entities\\ThumbEntity.cs",
               "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Entities\\ThumbEntity.cs",
@@ -364,21 +370,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Entities\\ThumbEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T08:04:27.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ThumbModel.cs",
-              "DocumentMoniker": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Models\\ThumbModel.cs",
-              "RelativeDocumentMoniker": "..\\NewDigitalPlatform.Models\\ThumbModel.cs",
-              "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Models\\ThumbModel.cs",
-              "RelativeToolTip": "..\\NewDigitalPlatform.Models\\ThumbModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T08:01:53.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T08:04:27.729Z"
             },
             {
               "$type": "Document",
@@ -390,8 +382,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\VerticalPipeline.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T06:23:35.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:23:35.978Z"
             },
             {
               "$type": "Document",
@@ -402,8 +393,7 @@
               "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Components\\VerticalPipeline.xaml",
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\VerticalPipeline.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-18T06:23:24.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:23:24.23Z"
             },
             {
               "$type": "Document",
@@ -415,8 +405,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\ComponentBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T06:20:39.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:20:39.309Z"
             },
             {
               "$type": "Document",
@@ -427,8 +416,7 @@
               "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Components\\WidthRule.xaml",
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\WidthRule.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-18T06:23:42.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:23:42.774Z"
             },
             {
               "$type": "Document",
@@ -440,8 +428,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\WidthRule.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T06:23:52.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:23:52.116Z"
             },
             {
               "$type": "Document",
@@ -452,8 +439,7 @@
               "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Components\\TeeJoints.xaml",
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\TeeJoints.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-18T06:23:05.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:23:05.547Z"
             },
             {
               "$type": "Document",
@@ -465,8 +451,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\RAJoints.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T06:22:59.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:22:59.549Z"
             },
             {
               "$type": "Document",
@@ -477,8 +462,7 @@
               "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Components\\RAJoints.xaml",
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\RAJoints.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-18T06:22:49.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:22:49.347Z"
             },
             {
               "$type": "Document",
@@ -490,8 +474,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\HorizontalPipeline.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T06:22:39.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:22:39.881Z"
             },
             {
               "$type": "Document",
@@ -502,8 +485,7 @@
               "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Components\\HorizontalPipeline.xaml",
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\HorizontalPipeline.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-18T06:22:27.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:22:27.852Z"
             },
             {
               "$type": "Document",
@@ -515,8 +497,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\HeightRule.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T06:22:21.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:22:21.916Z"
             },
             {
               "$type": "Document",
@@ -527,8 +508,7 @@
               "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Components\\HeightRule.xaml",
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\HeightRule.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-18T06:22:11.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:22:11.309Z"
             },
             {
               "$type": "Document",
@@ -540,8 +520,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\GasTank.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T06:22:05.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:22:05.747Z"
             },
             {
               "$type": "Document",
@@ -552,8 +531,7 @@
               "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Components\\GasTank.xaml",
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\GasTank.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-18T06:21:57.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:21:57.639Z"
             },
             {
               "$type": "Document",
@@ -565,8 +543,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\FreezeDryer.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T06:21:52.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:21:52.344Z"
             },
             {
               "$type": "Document",
@@ -577,8 +554,7 @@
               "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Components\\FreezeDryer.xaml",
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\FreezeDryer.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-18T06:21:41.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:21:41.331Z"
             },
             {
               "$type": "Document",
@@ -590,8 +566,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\Filter.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T06:21:35.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:21:35.598Z"
             },
             {
               "$type": "Document",
@@ -602,8 +577,7 @@
               "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Components\\Filter.xaml",
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\Filter.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-18T06:21:22.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:21:22.976Z"
             },
             {
               "$type": "Document",
@@ -614,8 +588,7 @@
               "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Components\\AdsorptionDryer.xaml",
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\AdsorptionDryer.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-18T06:19:45.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T06:19:45.564Z"
             },
             {
               "$type": "Document",
@@ -626,8 +599,7 @@
               "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Components\\Meter.xaml",
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\Meter.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-15T04:50:42.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T04:50:42.248Z"
             },
             {
               "$type": "Document",
@@ -638,8 +610,7 @@
               "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Components\\AirCompressor.xaml",
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\AirCompressor.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-16T01:26:13.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T01:26:13.78Z"
             },
             {
               "$type": "Document",
@@ -651,8 +622,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Models\\DevicePropModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T00:53:40.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T00:53:40.446Z"
             },
             {
               "$type": "Document",
@@ -664,8 +634,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Models\\MonitorWarnningModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T07:00:31.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T07:00:31.346Z"
             },
             {
               "$type": "Document",
@@ -677,8 +646,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Models\\MenuModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvxAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T07:00:29.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T07:00:29.149Z"
             },
             {
               "$type": "Document",
@@ -690,8 +658,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Entities\\DevicePropItemEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T01:33:10.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T01:33:10.365Z"
             },
             {
               "$type": "Document",
@@ -703,8 +670,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Entities\\PropEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T01:33:19.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T01:33:19.785Z"
             },
             {
               "$type": "Document",
@@ -716,8 +682,7 @@
               "RelativeToolTip": "..\\NewDigitPlatform.Views\\Pages\\TrendPage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T00:36:04.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T00:36:04.716Z"
             },
             {
               "$type": "Document",
@@ -728,8 +693,7 @@
               "ToolTip": "H:\\CODE\\c#\\GitHub\u9879\u76EE\\NewDigitalPlatform\\NewDigitalPlatform.Assets\\Styles\\ComboBoxStyles.xaml",
               "RelativeToolTip": "..\\NewDigitalPlatform.Assets\\Styles\\ComboBoxStyles.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-18T00:33:50.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T00:33:50.998Z"
             },
             {
               "$type": "Document",
@@ -753,8 +717,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.ViewModels\\DependencyInjection.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAABAwAoAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T02:26:07.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T02:26:07.76Z"
             },
             {
               "$type": "Document",
@@ -778,8 +741,7 @@
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvxMAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T02:22:17.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T02:22:17.501Z"
             },
             {
               "$type": "Document",
@@ -791,8 +753,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\AirCompressor.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T01:26:22.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T01:26:22.512Z"
             },
             {
               "$type": "Document",
@@ -804,8 +765,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Components\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwEAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T01:25:42.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T01:25:42.441Z"
             },
             {
               "$type": "Document",
@@ -817,8 +777,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Models\\RankingItemModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T07:00:34.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T07:00:34.866Z"
             },
             {
               "$type": "Document",
@@ -830,8 +789,7 @@
               "RelativeToolTip": "..\\NewDigitalPlatform.Models\\UserModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T07:00:43.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T07:00:43.887Z"
             }
           ]
         }

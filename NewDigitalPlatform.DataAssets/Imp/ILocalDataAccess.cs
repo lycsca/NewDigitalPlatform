@@ -8,7 +8,7 @@ namespace NewDigitalPlatform.DataAssets.Imp
     {
         DataTable Login(string username, string password);
         List<DeviceEntity> GetDevices();
-        int SaveDevice(List<DeviceEntity> devices);
+        void SaveDevice(List<DeviceEntity> devices);
 
 
 

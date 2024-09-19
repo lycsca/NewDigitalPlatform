@@ -7,7 +7,8 @@
              xmlns:di="clr-namespace:NewDigitalPlatform.Components;assembly=NewDigitalPlatform.Components"
              xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
              xmlns:c="clr-namespace:NewDigitalPlatform.Assets.Converter;assembly=NewDigitalPlatform.Assets"
-             mc:Ignorable="d" 
+             mc:Ignorable="d"
+             x:Name="win"
              xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
              d:DesignHeight="750" d:DesignWidth="1300" Background="Transparent">
@@ -57,6 +58,67 @@
                             </Setter.Value>
                         </Setter>
                     </Style>
+                    <Style TargetType="Button" x:Key="ControlButtonStyle">
+                        <Setter Property="Foreground" Value="#888"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="Transparent" Name="back">
+                                        <Border CornerRadius="{Binding Tag,RelativeSource={RelativeSource Mode=TemplatedParent}}" Name="bor">
+                                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                        </Border>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="bor" Property="Background" Value="#09000000"/>
+                                        </Trigger>
+                                        <Trigger Property="IsPressed" Value="True">
+                                            <Setter TargetName="bor" Property="Background" Value="#11000000"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                    <Style TargetType="ToggleButton" x:Key="StateButtonStyle">
+                        <Setter Property="Foreground" Value="#AAA"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="ToggleButton">
+                                    <Border Background="Transparent" Name="back" CornerRadius="{Binding Tag,RelativeSource={RelativeSource Mode=TemplatedParent}}">
+                                        <Border CornerRadius="{Binding Tag,RelativeSource={RelativeSource Mode=TemplatedParent}}" Name="bor">
+                                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" Name="content"/>
+                                        </Border>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="bor" Property="Background" Value="#09000000"/>
+                                        </Trigger>
+                                        <Trigger Property="IsChecked" Value="True">
+                                            <Setter TargetName="back" Property="Background">
+                                                <Setter.Value>
+                                                    <LinearGradientBrush StartPoint="0,1" EndPoint="0,0">
+                                                        <GradientStop Color="#AAF7F9FA" Offset="0"/>
+                                                        <GradientStop Color="#5DDD" Offset="1"/>
+                                                    </LinearGradientBrush>
+                                                </Setter.Value>
+                                            </Setter>
+                                            <Setter TargetName="content" Property="Effect">
+                                                <Setter.Value>
+                                                    <DropShadowEffect BlurRadius="5" Color="Black" ShadowDepth="0" Opacity="0.1"/>
+                                                </Setter.Value>
+                                            </Setter>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter Property="Foreground" Value="#999"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
                 </ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
@@ -81,6 +143,60 @@
             </BeginStoryboard>
         </EventTrigger>
     </UserControl.Triggers>
+    
+    <!--显示成功或失败的消息提示-->
+    <VisualStateManager.VisualStateGroups>
+        <VisualStateGroup>
+            <VisualState Name="SaveSuccess">
+                <Storyboard >
+                    <!--处理位置-->
+                    <ThicknessAnimationUsingKeyFrames Storyboard.TargetName="successbox" Storyboard.TargetProperty="Margin">
+                        <LinearThicknessKeyFrame Value="500,-80,0,0" KeyTime="0:0:0"/>
+                        <LinearThicknessKeyFrame Value="500,20,0,0" KeyTime="0:0:0.3"/>
+                        <LinearThicknessKeyFrame Value="500,20,0,0" KeyTime="0:0:3.3"/>
+                        <LinearThicknessKeyFrame Value="500,-80,0,0" KeyTime="0:0:4"/>
+                    </ThicknessAnimationUsingKeyFrames>
+
+                    <DoubleAnimationUsingKeyFrames Storyboard.TargetName="successbox" Storyboard.TargetProperty="Opacity">
+                        <LinearDoubleKeyFrame Value="0" KeyTime="0:0:0"/>
+                        <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0.5"/>
+                        <LinearDoubleKeyFrame Value="1" KeyTime="0:0:3.5"/>
+                        <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4"/>
+                    </DoubleAnimationUsingKeyFrames>
+                </Storyboard>
+            </VisualState>
+            <VisualState x:Name="NormalSuccess"/>
+        </VisualStateGroup>
+
+        <VisualStateGroup>
+            <VisualState Name="SaveFailedShow">
+                <Storyboard >
+                    <ThicknessAnimationUsingKeyFrames Storyboard.TargetName="failedbox" Storyboard.TargetProperty="Margin">
+                        <LinearThicknessKeyFrame Value="0,-80,0,0" KeyTime="0:0:0"/>
+                        <LinearThicknessKeyFrame Value="0,20,0,0" KeyTime="0:0:0.3"/>
+                    </ThicknessAnimationUsingKeyFrames>
+                    <DoubleAnimationUsingKeyFrames Storyboard.TargetName="failedbox" Storyboard.TargetProperty="Opacity">
+                        <LinearDoubleKeyFrame Value="0" KeyTime="0:0:0"/>
+                        <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0.5"/>
+                    </DoubleAnimationUsingKeyFrames>
+                </Storyboard>
+            </VisualState>
+            <VisualState Name="SaveFailedClose">
+                <Storyboard >
+                    <ThicknessAnimationUsingKeyFrames Storyboard.TargetName="failedbox" Storyboard.TargetProperty="Margin">
+                        <LinearThicknessKeyFrame Value="0,20,0,0" KeyTime="0:0:0"/>
+                        <LinearThicknessKeyFrame Value="0,-80,0,0" KeyTime="0:0:0.3"/>
+                    </ThicknessAnimationUsingKeyFrames>
+                    <DoubleAnimationUsingKeyFrames Storyboard.TargetName="failedbox" Storyboard.TargetProperty="Opacity">
+                        <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0"/>
+                        <LinearDoubleKeyFrame Value="0" KeyTime="0:0:0.3"/>
+                    </DoubleAnimationUsingKeyFrames>
+                </Storyboard>
+            </VisualState>
+            <VisualState Name="SaveFailedNormal"/>
+        </VisualStateGroup>
+    </VisualStateManager.VisualStateGroups>
+
     <Grid Margin="10,10,10,10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="250"/>
@@ -553,7 +669,7 @@
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition/>
-                        <RowDefinition Height="44"/>
+                        <RowDefinition Height="40"/>
                     </Grid.RowDefinitions>
                     <!--用户信息第一行-->
                     <Grid>
@@ -583,18 +699,55 @@
                         </StackPanel>
                     </Grid>
                     <!--组态编辑按钮-->
-                    <Button VerticalAlignment="Center" Style="{StaticResource NormalButtonStyle}" 
-                        Height="30" Width="150"
-                        Grid.Row="1" Command="{Binding ComponentsConfigCommand}">
-                        <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <!--控制按钮-->
+                    <Border Grid.Row="1" VerticalAlignment="Bottom" 
+                            HorizontalAlignment="Center" Height="42"
+                            Margin="0,0,0,0">
+                        <Border.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                <GradientStop Color="#F7F9FA" Offset="0"/>
+                                <GradientStop Color="#DDD" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Border.Background>
+                        <Border.Effect>
+                            <DropShadowEffect BlurRadius="10" Color="#BBB" ShadowDepth="0" Opacity="0.3"/>
+                        </Border.Effect>
+                        <Grid Width="260" TextBlock.Foreground="#999" TextBlock.FontSize="18">
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="30"/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="5"/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
-                            <TextBlock Text="&#xe611;" FontFamily="{StaticResource Iconfont}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                            <TextBlock Text="组态编辑" Grid.Column="1" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                            <ToggleButton Name="tb_component" 
+                                          Grid.Column="1"
+                                          IsChecked="False" 
+                                          Tag="10,0,0,10" 
+                                          HorizontalAlignment="Center"
+                                          Style="{StaticResource StateButtonStyle}" Margin="1">
+                                <StackPanel>
+                                    <TextBlock Text="&#xe85e;" FontFamily="{StaticResource Iconfont}"
+                                                 HorizontalAlignment="Center" Margin="0,1"/>
+                                    <TextBlock Text="组件" FontSize="9" HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </ToggleButton>
+                            <Border BorderBrush="White" Grid.Column="2" HorizontalAlignment="Center" BorderThickness="1,0,0,0"
+                                    Margin="0,8">
+                                <Border BorderBrush="#CCC" BorderThickness="1,0,0,0" Width="1"/>
+                            </Border>
+                            <Button Grid.Column="4" Style="{StaticResource ControlButtonStyle}" 
+                                     Command="{Binding SaveCommand}"
+                                     CommandParameter="{Binding ElementName=win}" Name="btnSave">
+                                <StackPanel>
+                                    <TextBlock Text="&#xe63c;" FontFamily="{StaticResource Iconfont}"
+                                HorizontalAlignment="Center" Margin="0,1"/>
+                                    <TextBlock Text="保存" FontSize="9" HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
                         </Grid>
-                    </Button>
+                    </Border>
                 </Grid>
 
             </Border>
@@ -728,7 +881,100 @@
                 </ScrollViewer>
             </GroupBox>
         </Grid>
+        
+        
+        
+        <!--消息提示-->
+        <!--成功   过一段时间自动消失-->
+        <Border Background="#EEFFFFFF" Grid.ColumnSpan="3"  CornerRadius="10" Width="200" Height="45" 
+                VerticalAlignment="Top" Name="successbox" Margin="500,-100,0,0">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="10" Color="#DDD" ShadowDepth="0" Opacity="1"/>
+            </Border.Effect>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="10,0">
+                <TextBlock Text="&#xe60d;" FontFamily="{StaticResource Iconfont}" Foreground="LightGreen" VerticalAlignment="Center"
+                    FontSize="26" Margin="10,0"/>
+                <TextBlock Text="组态数据保存完成！" Foreground="ForestGreen" VerticalAlignment="Center" FontSize="12" FontWeight="Normal"/>
+            </StackPanel>
+        </Border>
+        <!--异常   -->
+        <Border Grid.ColumnSpan="3" VerticalAlignment="Top" HorizontalAlignment="Center" 
+         MinWidth="200" MaxWidth="350" Name="failedbox"
+         Background="#EEFFFFFF" CornerRadius="10" MinHeight="45" Margin="500,-100,0,0">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="10" Color="#DDD" ShadowDepth="0" Opacity="0.3"/>
+            </Border.Effect>
+            <Grid Margin="10,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="30"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="&#xe663;" FontFamily="{StaticResource Iconfont}" 
+                    Foreground="OrangeRed" VerticalAlignment="Top"
+                    FontSize="26" Margin="10,13"/>
+                <TextBox Text="{Binding SaveFailedMessage,StringFormat=组态数据保存失败！异常原因：{0}}" 
+                  Grid.Column="1" Background="Transparent" MaxLength="10" Effect="{x:Null}"
+                  Foreground="#555" VerticalAlignment="Stretch" FontSize="12" FontWeight="Normal" 
+                  Style="{x:Null}" Margin="0,10" IsReadOnly="True" TextWrapping="Wrap" 
+                  BorderThickness="0" BorderBrush="Transparent" VerticalContentAlignment="Center"/>
 
+                <Button Content="&#xe653;" FontFamily="{StaticResource Iconfont}" 
+                 Grid.Column="2" Height="20" Width="20"
+                 Style="{StaticResource ControlButtonStyle}" VerticalAlignment="Top" 
+                 Margin="0,15" HorizontalAlignment="Right"
+                 Command="{Binding CloseSaveFailedCommand}"
+                 CommandParameter="{Binding ElementName=win}"/>
+            </Grid>
+        </Border>
 
+        <!--组件列表-->
+        <ScrollViewer HorizontalAlignment="Left" Margin="0,0,0,0" 
+                      Background="White"
+               VerticalScrollBarVisibility="Hidden"
+                      Visibility="{Binding Path=IsChecked, ElementName=tb_component,Converter={StaticResource b2v}}"
+                      >
+
+              
+            <ItemsControl ItemsSource="{Binding ThumbList}" Width="250">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Expander Header="{Binding Header}" IsExpanded="True">
+                            <ItemsControl ItemsSource="{Binding Children}">
+                                <ItemsControl.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <UniformGrid Columns="3"/>
+                                    </ItemsPanelTemplate>
+                                </ItemsControl.ItemsPanel>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border Width="35" Height="35" 
+                                         Background="#09409EFE" Margin="3" 
+                                         CornerRadius="5"
+                                         Tag="{Binding}" Name="b_1" ToolTip="{Binding Header}">
+                                            <Border.InputBindings>
+                                                <MouseBinding MouseAction="LeftClick" 
+                                                       Command="{Binding ThumbCommand}" 
+                                                       CommandParameter="{Binding ElementName=b_1}"/>
+                                            </Border.InputBindings>
+                                            <Border Margin="6">
+                                                <Border.Background>
+                                                    <ImageBrush ImageSource="{Binding Icon}"/>
+                                                </Border.Background>
+                                            </Border>
+                                        </Border>
+                                        <DataTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter TargetName="b_1" Property="Background" Value="#22409EFE"/>
+                                            </Trigger>
+                                        </DataTemplate.Triggers>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </Expander>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
     </Grid>
 </UserControl>

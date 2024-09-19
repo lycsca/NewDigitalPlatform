@@ -17,6 +17,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Media;
 
 namespace NewDigitalPlatform.ViewModels
@@ -32,7 +33,10 @@ namespace NewDigitalPlatform.ViewModels
         [ObservableProperty]
         private DeviceItemModel currentDevice;
 
-        //monitor
+        #region Monitor
+        //
+        public List<ThumbModel> ThumbList { get; set; }
+
         [ObservableProperty]
         public List<RankingItemModel> _rankingList;
         [ObservableProperty]
@@ -45,10 +49,12 @@ namespace NewDigitalPlatform.ViewModels
 
         public RelayCommand<DeviceItemModel> DeviceSelectedCommand { get; set; }
 
-        private  ILocalDataAccess _localDataAccess;
+        private ILocalDataAccess _localDataAccess;
 
         [ObservableProperty]
-        public ObservableCollection<DeviceItemModel> _deviceList = new ObservableCollection<DeviceItemModel>();
+        public ObservableCollection<DeviceItemModel> _deviceList = new ObservableCollection<DeviceItemModel>()
+        #endregion
+;
 
         //命令
         public RelayCommand<object> SwitchPageCommand { get; set; }
@@ -133,6 +139,21 @@ namespace NewDigitalPlatform.ViewModels
 
             #region 设备
             this.ComponentsInit();
+            ThumbList = new List<ThumbModel>();
+            // 通过数据库维护
+            var ts = localDataAccess.GetThumbList();
+            ThumbList = ts.GroupBy(t => t.Category).Select(g => new ThumbModel
+            {
+                Header = g.Key,
+                Children = g.Select(b => new ThumbItemModel
+                {
+                    Icon = "pack://application:,,,/NewDigitalPlatform.Assets;component/Images/Thumbs/" + b.Icon,
+                    Header = b.Header,
+                    TargetType = b.TargetType,
+                    Width = b.Width,
+                    Height = b.Height
+                }).ToList()
+            }).ToList();
             #endregion
 
             DeviceSelectedCommand = new RelayCommand<DeviceItemModel>(model =>
@@ -202,7 +223,8 @@ namespace NewDigitalPlatform.ViewModels
 
         }
 
-        private void DoItemDropCommand(object obj)
+        [RelayCommand]
+        private void ItemDrop(object obj)
         {
             DragEventArgs e = obj as DragEventArgs;
             var data = (ThumbItemModel)e.Data.GetData(typeof(ThumbItemModel));
@@ -211,7 +233,7 @@ namespace NewDigitalPlatform.ViewModels
             var dim = new DeviceItemModel(_localDataAccess)
             {
                 Header = data.Header,
-                DeviceNum = "D" + DateTime.Now.ToString("yyyyMMddHHmmssFFF"),
+                DeviceNum =DateTime.Now.ToString("yyyyMMddHHmmssFFF"),
                 DeviceType = data.TargetType,
                 Width = data.Width,
                 Height = data.Height,
@@ -225,10 +247,11 @@ namespace NewDigitalPlatform.ViewModels
             DeviceList.Add(dim);
         }
 
-        private void DoSaveCommand(object obj)
+        [RelayCommand]
+        private void Save(object obj)
         {
-            VisualStateManager.GoToElementState(obj as Window, "NormalSuccess", true);
-            VisualStateManager.GoToElementState(obj as Window, "SaveFailedNormal", true);
+            VisualStateManager.GoToElementState(obj as UserControl, "NormalSuccess", true);
+            VisualStateManager.GoToElementState(obj as UserControl, "SaveFailedNormal", true);
 
             // 注意一个问题：对齐对象
             var ds = DeviceList
@@ -271,17 +294,15 @@ namespace NewDigitalPlatform.ViewModels
 
                // _windowState = true;
                 // 提示保存成功
-                VisualStateManager.GoToElementState(obj as Window, "SaveSuccess", true);
+                VisualStateManager.GoToElementState(obj as UserControl, "SaveSuccess", true);
             }
             catch (Exception ex)
             {
                 SaveFailedMessage = ex.Message;
                 // 提示保存失败，包括异常信息
-                VisualStateManager.GoToElementState(obj as Window, "SaveFailedShow", true);
+                VisualStateManager.GoToElementState(obj as UserControl, "SaveFailedShow", true);
             }
         }
-
-       
 
 
     }
